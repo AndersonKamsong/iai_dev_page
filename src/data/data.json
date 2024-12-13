@@ -1,21 +1,18 @@
 {
   "Header": {
-    "title": "WELCOME TO IAI DEV",
-    "paragraph": "Quote"
+    "title": "Rejoignez l’excellence, parlez votre créativité",
+    "paragraph": "Rejoignez une communauté dynamique d'étudiants passionnés par la technologie et l'innovation. Ensemble, nous explorons, apprenons et créons des solutions numériques qui transforment notre société. Découvrez nos activités, nos projets, et comment vous pouvez faire partie de cette aventure passionnante."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Le Club IAI Dev est un regroupement des étudiants passionnés de programmation qui ont décidé de mettre leurs compétences, leur créativité et leur énergie au service de l'innovation technologique. Ce club offre un cadre propice à l’apprentissage, au partage de connaissances et à la réalisation de projets concrets dans divers domaines en utilisant des technologies de pointes, récentes et populaire",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Favoriser l'excellence",
+      "Préparer l’avenir",
+      "Promouvoir l’esprit d’équipe ",
+      "Innover"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Engagement Social et Communautaire"
     ]
   },
   "Gallery": [
@@ -67,34 +64,29 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-comments-o",
+      "title": "Formation en atelier",
+      "text": "accompagner les cadets dans leurs projets, accompagner et orienter les cadets qui découvrent le monde du dev"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bullhorn",
+      "title": "Organisation des ateliers de jeux, concours, hackathon ",
+      "text": "organiser des séances de jeux et concours pour encourager les cadets lors de l’apprentissage et faire ressortir leur plein potentiel"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-group",
+      "title": "Les ateliers pratiques",
+      "text": "ici les projets seront donnés par atelier de formation à la fin d’une formation pour consolider les acquis et valoriser le travail en commun"
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-magic",
+      "title": "Conférence sur l’introduction au génie logiciel",
+      "text": "pour orienter toutes personnes qui souhaite se lancer dans ce vaste domaine de l’informatique"
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-magic",
+      "title": "Organisation d’un championnat de code ",
+      "text": "« The representative's dev cup » : le premier championnat interclasse sur le développement et la programmation "
     }
   ],
   "Testimonials": [
@@ -114,7 +106,7 @@
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
@@ -131,49 +123,82 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/team/01.jpg",
       "name": "PANTCHUI Junior",
-      "job": "President"
+      "job": "President",
+      "link": {
+        "google": "pantchuijunior@gmail.com",
+        "facebook": "Pantchui Junior",
+        "linkedin": "Junior Pantchui",
+        "x": "https://x.com/junior_pantchui"
+      }
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "IAI_DEV_Image/anderson.png",
       "name": "KAMSONG Anderson",
-      "job": "Vice President"
+      "job": "Vice President",
+      "link": {
+        "google": "kamsonganderson39@gmail.com",
+        "github": "https://github.com/andersonKamsong/",
+        "linkedin": "https://www.linkedin.com/in/anderson-kamsong/",
+        "x": "https://x.com/AndersonKamsong"
+      }
     },
     {
       "img": "img/team/03.jpg",
       "name": "KOUOMO Merveille",
-      "job": "Ministre de la communication"
+      "job": "Ministre de la communication",
+      "link": {
+        "google": "merveillekouomo@gmail.com"
+      }
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/01.jpg",
       "name": "ANAFACK Brice",
       "job": "Ministre des relations exterieures"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "PESSIDO Germann",
-      "job": "Ministre des relations interieures"
+      "img": "IAI_DEV_Image/germann.jpg",
+      "name": "PESSIDJO GERMANN",
+      "job": "Ministre des relations interieures",
+      "link": {
+        "google": "germannpessidjo6@gmail.com",
+        "github": "https://github.com/Pessidjo-Germann"
+      }
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/01.jpg",
       "name": "MBENDE Jerry",
-      "job": "Ministre des jeux/hackathons"
+      "job": "Ministre des jeux/hackathons",
+      "link": {
+        "google": "jerrymbende@gmail.com",
+        "facebook": "https://web.facebook.com/profile.php?id=100086155488213"
+      }
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/01.jpg",
       "name": "NDJOH Junior",
-      "job": "Ministre des finances"
+      "job": "Ministre des finances",
+      "link": {
+        "google": "juniorndjoh@gmail.com"
+      }
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/01.jpg",
       "name": "DOUNDE Bienvenu",
-      "job": "Ministre d'atelier"
+      "job": "Ministre d'atelier",
+      "link": {
+        "google": "doumdebienvenu455@gmail.com"
+      }
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/team/01.jpg",
       "name": "MBAJOUEN Donald",
-      "job": "Censeur"
+      "job": "Censeur",
+      "link": {
+        "google": "mbajouend@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/donald-njemi-mbajouen-741889284/"
+      }
     }
   ],
   "Contact": {
@@ -187,23 +212,28 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Formation en atelier",
+      "text": "accompagner les cadets dans leurs projets, accompagner et orienter les cadets qui découvrent le monde du dev"
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Organisation des ateliers de jeux, concours, hackathon ",
+      "text": "organiser des séances de jeux et concours pour encourager les cadets lors de l’apprentissage et faire ressortir leur plein potentiel"
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Les ateliers pratiques",
+      "text": "ici les projets seront donnés par atelier de formation à la fin d’une formation pour consolider les acquis et valoriser le travail en commun"
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Conférence sur l’introduction au génie logiciel",
+      "text": "pour orienter toutes personnes qui souhaite se lancer dans ce vaste domaine de l’informatique"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Organisation d’un championnat de code ",
+      "text": "« The representative's dev cup » : le premier championnat interclasse sur le développement et la programmation "
     }
   ]
 }

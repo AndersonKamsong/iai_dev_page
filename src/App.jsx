@@ -28,21 +28,13 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
+      {/* <Gallery data={landingPageData.Gallery} /> */}
+      {/* <Testimonials data={landingPageData.Testimonials} /> */}
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-      <div>
-        <HackerBackground
-          color="#5ca9fb" // Customize the color
-          fontSize={25} // Customize the font size
-          speed={2} // Customize the fall speed
-          className="your-custom-class" // Add custom CSS classes
-        />
-      </div>
     </div>
   );
 };

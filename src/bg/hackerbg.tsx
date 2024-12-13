@@ -53,9 +53,12 @@ const HackerBackground: React.FC<HackerBackgroundProps> = ({
  
       ctx.fillStyle = color;
       ctx.font = `${fontSize}px monospace`;
- 
+      let iai_text = "IAI DEV "
+      let current_index = 0;
       for (let i = 0; i < drops.length; i++) {
-        const text = chars[Math.floor(Math.random() * chars.length)];
+        // const text = chars[Math.floor(Math.random() * chars.length)];
+        const text = iai_text[current_index%8];
+        current_index++
         ctx.fillText(text, i * fontSize, drops[i] * fontSize);
  
         if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
