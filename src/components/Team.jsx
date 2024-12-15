@@ -19,9 +19,6 @@ export const Team = (props) => {
                     <h4>{d.name}</h4>
                     <p>{d.job}</p>
                     <hr />
-                    {d?.link?.facebook && (<i class=" fa fa-facebook" style={{ fontSize: "15px" }}></i>)}&nbsp;&nbsp;
-                    {d?.link?.facebook && (<i class=" fa fa-github" style={{ fontSize: "15px" }}></i>)}&nbsp;&nbsp;
-                    {/* {d?.link?.facebook && (<i class=" fa fa-linkedin" style={{ fontSize: "20px" }}></i>)}&nbsp;&nbsp; */}
                   </div>
                 </div>
               </div>

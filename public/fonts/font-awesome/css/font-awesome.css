@@ -532,6 +532,9 @@
 .fa-folder-open:before {
   content: "\f07c";
 }
+.fa-robot::before {
+  content: "\f544"; }
+
 .fa-arrows-v:before {
   content: "\f07d";
 }

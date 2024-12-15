@@ -6,23 +6,23 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Our Workshops</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-6">
-                  {" "}
-                  <i className={d.icon}></i>
-                  <div className="service-desc">
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
-                  </div>
+              <div key={`${d.name}-${i}`} className="col-md-6">
+                {" "}
+                <i className={d.icon}></i>
+                <div className="service-desc">
+                  <h3>{d.title}</h3>
+                  <p>{d.text}</p>
                 </div>
-              ))
+                <a href={d.link} target="_bank" style={{color :"green"}}>
+                  <span className="fab fa-whatsapp" style={{ fontSize: "25px" }}></span>
+                </a>
+                <hr />
+              </div>
+            ))
             : "loading"}
         </div>
       </div>

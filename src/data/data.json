@@ -1,7 +1,8 @@
 {
   "Header": {
     "title": "Rejoignez l’excellence, parlez votre créativité",
-    "paragraph": "Rejoignez une communauté dynamique d'étudiants passionnés par la technologie et l'innovation. Ensemble, nous explorons, apprenons et créons des solutions numériques qui transforment notre société. Découvrez nos activités, nos projets, et comment vous pouvez faire partie de cette aventure passionnante."
+    "paragraph": "Rejoignez une communauté dynamique d'étudiants passionnés par la technologie et l'innovation. Ensemble, nous explorons, apprenons et créons des solutions numériques qui transforment notre société. Découvrez nos activités, nos projets, et comment vous pouvez faire partie de cette aventure passionnante.",
+    "qoute": "Une nouvelle vision de l’innovation"
   },
   "About": {
     "paragraph": "Le Club IAI Dev est un regroupement des étudiants passionnés de programmation qui ont décidé de mettre leurs compétences, leur créativité et leur énergie au service de l'innovation technologique. Ce club offre un cadre propice à l’apprentissage, au partage de connaissances et à la réalisation de projets concrets dans divers domaines en utilisant des technologies de pointes, récentes et populaire",
@@ -64,29 +65,40 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Formation en atelier",
-      "text": "accompagner les cadets dans leurs projets, accompagner et orienter les cadets qui découvrent le monde du dev"
+      "icon": "fa fa-globe-africa",
+      "title": "Developpent Web",
+      "link": "https://chat.whatsapp.com/BS6P7OgRn5OBryd4tcWOMv",
+      "text": "Apprenez à créer des sites web modernes et dynamiques en maîtrisant les bases du design et des fonctionnalités interactives"
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Organisation des ateliers de jeux, concours, hackathon ",
-      "text": "organiser des séances de jeux et concours pour encourager les cadets lors de l’apprentissage et faire ressortir leur plein potentiel"
+      "icon": "fa fa-robot",
+      "title": "Intelligence Artificielle",
+      "link": "https://chat.whatsapp.com/BzIp1ZEqbGV5zkanpnzj5a",
+      "text": "Explorez le potentiel de l’IA pour développer des solutions intelligentes basées sur l’analyse des données."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Les ateliers pratiques",
-      "text": "ici les projets seront donnés par atelier de formation à la fin d’une formation pour consolider les acquis et valoriser le travail en commun"
+      "icon": "fa fa-desktop",
+      "title": "Developpent Desktop",
+      "link": "https://chat.whatsapp.com/J9kuaSMQwPbGOg49KpDfOU",
+      "text": "Concevez des applications ergonomiques et robustes pour offrir une expérience fluide sur les ordinateurs"
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Conférence sur l’introduction au génie logiciel",
-      "text": "pour orienter toutes personnes qui souhaite se lancer dans ce vaste domaine de l’informatique"
+      "icon": "fa fa-cloud",
+      "title": "Cloud",
+      "link": "https://chat.whatsapp.com/DcTdwOuR0vhA01i8VHtOCA",
+      "text": "Maîtrisez les principes du cloud pour déployer et gérer des applications à grande échelle de manière efficace."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Organisation d’un championnat de code ",
-      "text": "« The representative's dev cup » : le premier championnat interclasse sur le développement et la programmation "
+      "icon": "fa fa-mobile",
+      "title": "Developpent Mobile",
+      "link": "https://chat.whatsapp.com/IV9hnjR3EeZAO24fY2GTVA",
+      "text": "Initiez-vous à la création d'applications mobiles intuitives et performantes adaptées à tous les types d'appareils."
+    },
+    {
+      "icon": "fa fa-chain",
+      "title": "Blockchain",
+      "link": "https://chat.whatsapp.com/BF2P7ip2JO8Gkfxbg9qhR0",
+      "text": "Découvrez les bases des systèmes décentralisés et apprenez à concevoir des applications sécurisées et innovantes."
     }
   ],
   "Testimonials": [
@@ -123,7 +135,7 @@
   ],
   "Team": [
     {
-      "img": "IAI_DEV_Image/team/01.jpg",
+      "img": "IAI_DEV_Image/junior.jpg",
       "name": "PANTCHUI Junior",
       "job": "President",
       "link": {
@@ -145,7 +157,7 @@
       }
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "IAI_DEV_Image/merveille3.jpg",
       "name": "KOUOMO Merveille",
       "job": "Ministre de la communication",
       "link": {
@@ -153,7 +165,7 @@
       }
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/Brice.jpg",
       "name": "ANAFACK Brice",
       "job": "Ministre des relations exterieures"
     },
@@ -167,7 +179,15 @@
       }
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/Sandy.jpg",
+      "name": "ASSAME SANDY",
+      "job": "Ministre de la communication",
+      "link": {
+        "google": "merveillekouomo@gmail.com"
+      }
+    },
+    {
+      "img": "IAI_DEV_Image/01.jpg",
       "name": "MBENDE Jerry",
       "job": "Ministre des jeux/hackathons",
       "link": {
@@ -176,7 +196,7 @@
       }
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/NDJOH_Junior.jpg",
       "name": "NDJOH Junior",
       "job": "Ministre des finances",
       "link": {
@@ -184,7 +204,7 @@
       }
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/Omer.jpg",
       "name": "DOUNDE Bienvenu",
       "job": "Ministre d'atelier",
       "link": {
@@ -192,7 +212,7 @@
       }
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "IAI_DEV_Image/donald.jpg",
       "name": "MBAJOUEN Donald",
       "job": "Censeur",
       "link": {
@@ -205,33 +225,28 @@
     "address": "AICS Cameroon ",
     "phone": "+237 652 156 526",
     "email": "info@iaidev.com",
-    "facebook": "fb.com",
+    "whatsapp": "https://chat.whatsapp.com/K221B4fIqL10OO31PfjmjX",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
+      "icon": "fa fa-book",
       "title": "Formation en atelier",
       "text": "accompagner les cadets dans leurs projets, accompagner et orienter les cadets qui découvrent le monde du dev"
     },
     {
-      "icon": "fa fa-bullhorn",
+      "icon": "fa fa-gamepad",
       "title": "Organisation des ateliers de jeux, concours, hackathon ",
       "text": "organiser des séances de jeux et concours pour encourager les cadets lors de l’apprentissage et faire ressortir leur plein potentiel"
     },
     {
-      "icon": "fa fa-group",
-      "title": "Les ateliers pratiques",
-      "text": "ici les projets seront donnés par atelier de formation à la fin d’une formation pour consolider les acquis et valoriser le travail en commun"
-    },
-    {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-users",
       "title": "Conférence sur l’introduction au génie logiciel",
       "text": "pour orienter toutes personnes qui souhaite se lancer dans ce vaste domaine de l’informatique"
     },
     {
-      "icon": "fa fa-magic",
+      "icon": "fa fa-trophy",
       "title": "Organisation d’un championnat de code ",
       "text": "« The representative's dev cup » : le premier championnat interclasse sur le développement et la programmation "
     }

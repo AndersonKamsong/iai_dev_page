@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Swirl from "../bg/swril.tsx";
 import HackerBackground from "../bg/hackerbg.tsx";
 
 export const Header = (props) => {
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+  const handleChanges = () => {
+    setScreenWidth(window.innerWidth)
+  }
+  useEffect(() => {
+    window.addEventListener('resize', handleChanges);
+    return () => {
+      window.removeEventListener('resize', handleChanges);
+    };
+  }, [])
   return (
     <header id="header">
       <div>
@@ -25,7 +35,11 @@ export const Header = (props) => {
                     {props.data ? props.data.title : "Loading"}
                     <span></span>
                   </h2>
-                  <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                  {screenWidth < 500 ? (
+                    <p>{props.data ? props.data.qoute : "Loading"}</p>
+                  ) : (
+                    <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                  )}
                   <a
                     href="#features"
                     className="btn btn-custom btn-lg page-scroll"
@@ -41,6 +55,6 @@ export const Header = (props) => {
       </div>
       {/* <h1 style={{marginTop:"-200px"}}> This content will be inside the swirl!</h1> */}
 
-    </header>
+    </header >
   );
 };

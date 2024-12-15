@@ -130,20 +130,20 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fab fa-whatsapp" style={{color:"green",fontSize:"50px"}}></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <i className="fab fa-youtube" style={{color:"red",fontSize:"50px"}}></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fab fa-youtube" style={{color:"green",fontSize:"50px"}}></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

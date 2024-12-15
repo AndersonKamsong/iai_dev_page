@@ -247,7 +247,7 @@ header .intro-text {
 }
 @media (min-height: 600px)  {
   header .intro-text {
-    padding-bottom: 180px;
+    padding-bottom: 280px;
   }
 }
 @media (min-height: 750px)  {
