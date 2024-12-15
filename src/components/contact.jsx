@@ -15,14 +15,14 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
+
     // {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     // emailjs
     //   .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
     //   .then(
@@ -41,13 +41,23 @@ export const Contact = (props) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
-              <div className="section-title">
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
+              {props.lang === "en" ? (
+                <div className="section-title">
+                  <h2>Get In Touch</h2>
+                  <p>
+                    Please fill out the form below to send us an email and we will
+                    get back to you as soon as possible.
+                  </p>
+                </div>
+              ) : (
+                <div className="section-title">
+                  <h2>Contactez-nous</h2>
+                  <p>
+                    Veuillez remplir le formulaire ci-dessous pour nous envoyer un email.
+                    Nous vous répondrons dans les meilleurs délais.
+                  </p>
+                </div>
+              )}
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
@@ -131,12 +141,12 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.whatsapp : "/"}>
-                      <i className="fab fa-whatsapp" style={{color:"green",fontSize:"50px"}}></i>
+                      <i className="fab fa-whatsapp" style={{ color: "green", fontSize: "50px" }}></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fab fa-youtube" style={{color:"red",fontSize:"50px"}}></i>
+                      <i className="fab fa-youtube" style={{ color: "red", fontSize: "50px" }}></i>
                     </a>
                   </li>
                   {/* <li>
@@ -154,7 +164,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2024 IAI DEV Land Page. Design by{" "}
-            <a href="#" rel="nofollow">
+            <a href="https://github.com/andersonKamsong/" target="_bank" rel="nofollow">
               Anderson
             </a>
           </p>

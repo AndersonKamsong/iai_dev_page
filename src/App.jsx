@@ -11,7 +11,7 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import HackerBackground from "./bg/hackerbg.tsx";
+import 'aos/dist/aos.css'; 
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -20,21 +20,23 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [lang, setLanguage] = useState(localStorage.getItem('iai_dev_lang')||"en");
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
   return (
     <div>
-      <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Services data={landingPageData.Services} />
+      <Navigation setLanguage={setLanguage} lang={lang} />
+      <Header data={landingPageData.Header} lang={lang} />
+      <Features data={landingPageData.Features} lang={lang}/>
+      <About data={landingPageData.About} lang={lang}/>
+      <Services data={landingPageData.Services} lang={lang}/>
       {/* <Gallery data={landingPageData.Gallery} /> */}
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
+      <Team data={landingPageData.Team} lang={lang}/>
+      <Contact data={landingPageData.Contact} lang={lang}/>
     </div>
   );
 };
